@@ -13,6 +13,13 @@
       <xs:attribute name="name" use="required"/>
     </xs:complexType>
   </xs:element>
+
+  <xs:simpleType name="cdata">
+    <xs:restriction base="xs:string">
+
+    </xs:restriction>
+  </xs:simpleType>
+
   <xs:element name="pages" type="xs:string"/>
   <xs:element name="standards" type="xs:NMTOKEN"/>
   <xs:element name="objective" type="xs:string"/>
@@ -109,13 +116,15 @@
   </xs:element>
   <xs:element name="term" type="xs:string"/>
   <xs:element name="definition" type="xs:string"/>
-  <xs:element name="description">
-    <xs:complexType mixed="true">
+  <xs:element name="description" type="cdata">
+
+
+<!--     <xs:complexType mixed="true">
       <xs:choice minOccurs="0" maxOccurs="unbounded">
         <xs:element ref="math"/>
         <xs:element ref="nextline"/>
       </xs:choice>
-    </xs:complexType>
+    </xs:complexType> -->
   </xs:element>
   <xs:element name="assignment-name" type="xs:NCName"/>
   <xs:element name="answer" type="xs:string"/>
