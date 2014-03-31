@@ -224,7 +224,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       
       <div class="exampleTermLabel">Example:</div>
       <div class="exampleTerm">
-        <xsl:apply-templates/>
+       <xsl:copy-of select="@*"/>
+       <xsl:value-of select="." disable-output-escaping="yes" />
       </div>
   </xsl:template>
 

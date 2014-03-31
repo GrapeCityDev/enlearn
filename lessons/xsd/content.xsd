@@ -16,7 +16,6 @@
 
   <xs:simpleType name="cdata">
     <xs:restriction base="xs:string">
-
     </xs:restriction>
   </xs:simpleType>
 
@@ -32,7 +31,7 @@
   </xs:element>
   <xs:element name="prerequisite">
     <xs:complexType>
-      <xs:attribute name="name" use="required"/>
+       <xs:attribute name="name" use="required"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="module">
@@ -117,8 +116,6 @@
   <xs:element name="term" type="xs:string"/>
   <xs:element name="definition" type="xs:string"/>
   <xs:element name="description" type="cdata">
-
-
 <!--     <xs:complexType mixed="true">
       <xs:choice minOccurs="0" maxOccurs="unbounded">
         <xs:element ref="math"/>
@@ -136,13 +133,13 @@
       </xs:choice>
     </xs:complexType>
   </xs:element>
-  <xs:element name="example">
-    <xs:complexType mixed="true">
+  <xs:element name="example" type="cdata"/>
+ <!--    <xs:complexType mixed="true">
       <xs:sequence>
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="math"/>
       </xs:sequence>
     </xs:complexType>
-  </xs:element>
+  </xs:element> -->
   <xs:element name="table">
     <xs:complexType>
       <xs:sequence>
