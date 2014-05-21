@@ -1,12 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<lesson id="" name="">
-    <pages></pages>
-    <standards></standards>
-    <objective></objective>
+<lesson
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="id1" name="name1">
+    <pages>into ratios with whole-number terms through multiplication, and they willfind examples of equivalent ratios.
+			PRIOR KNOWLEDGE REQUIRED
+			Understands the fraction of a whole numberCan multiply a fraction by a whole number Knows units for distance (kilometers and miles)</pages>
+    <standards>
+        <standard>standard1</standard>
+    </standards>
+    <objectives>
+        <objective>objective1 </objective>
+    </objectives>
     <prerequisites>
-        <prerequisite name=""></prerequisite>
+        <prerequisite>
+            <name>name2</name>
+            <description>description1</description>
+        </prerequisite>
     </prerequisites>
-    <module name="">
-        <misc></misc>
-    </module>
+    <modules>
+        <module name="name3">
+            <teacher-text>teacher-text1</teacher-text>
+            <exercise>
+                <description>description2</description>
+                <problemset name="name4">
+                    <conceptType>
+                        <conceptName>UnitRatios</conceptName>
+                        <filterName>UnitRatios:SimpleFractionsOnlyFilter</filterName>
+                    </conceptType>
+                    <problems>
+                        <problem name="name5">
+                            <state>state1</state>
+                            <layout>layout1</layout>
+                        </problem>
+                    </problems>
+                    <adaptation>
+                        <mastery>mastery1</mastery>
+                        <maxProblems>maxProblems1</maxProblems>
+                    </adaptation>
+                </problemset>
+            </exercise>
+        </module>
+    </modules>
+    <ap>
+        <assignment name="name6">
+            <problemset name="name7">
+                <conceptType>
+                    <conceptName>UnitRatios</conceptName>
+                    <filterName>RatioTable:IntsBottomOnlyFilter</filterName>
+                </conceptType>
+                <problems>
+                    <problem name="name8">
+                        <state>state2</state>
+                        <layout>layout2</layout>
+                    </problem>
+                </problems>
+                <adaptation>
+                    <mastery>er by 5.ASK: What is 1/5 of 5 apples? (1 apple) SAY: So 1/5 of 5 </mastery>
+                    <maxProblems>n multiply 5 × 4 by adding five 4s (4 + 4 + 4 + 4 + 4), you can multiply 5 × 1/3 by adding five one-thirds. Write on the board: 
+			</maxProblems>
+                </adaptation>
+            </problemset>
+        </assignment>
+        <description>description3</description>
+    </ap>
+    <extensions>
+        <assignment name="name9">
+            <problemset name="name10">
+                <conceptType>
+                    <conceptName>RatioTable</conceptName>
+                    <filterName>UnitRatios:SimpleFractionsOnlyFilter</filterName>
+                </conceptType>
+                <problems>
+                    <problem name="name11">
+                        <state>state3</state>
+                        <layout>layout3</layout>
+                    </problem>
+                </problems>
+                <adaptation>
+                    <mastery>mastery3</mastery>
+                    <maxProblems>maxProblems3</maxProblems>
+                </adaptation>
+            </problemset>
+        </assignment>
+        <description>description4</description>
+    </extensions>
+    <vocabulary>
+        <termdefinition>
+            <term>term1</term>
+            <definition>definition1</definition>
+            <example>example1</example>
+        </termdefinition>
+    </vocabulary>
 </lesson>
